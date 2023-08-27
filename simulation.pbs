@@ -1,10 +1,10 @@
 #!/bin/bash
 #PBS -P GPD_Param_Est
-#PBS -l select=1:ncpus=15:mem=32GB
-#PBS -l walltime=40:00:00
+#PBS -l select=1:ncpus=10:mem=10GB
+#PBS -l walltime=20:00:00
 #PBS -M rjam3686@uni.sydney.edu.au
 #PBS -m abe
-#PBS -J 1-36
+#PBS -J 1-1014
 
 cd $PBS_O_WORKDIR
 

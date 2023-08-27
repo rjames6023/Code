@@ -299,8 +299,6 @@ def parameter_estimation(parameter_estimation_dict, full_sample, sorted_excess_l
         b = -1
         xn = np.max(x)
         initial_r = parameter_estimation_dict['L-Moments']['shape']
-        if initial_r > 0.5:
-            initial_r = 0.49
         LME_shape, LME_scale = LME_estimation(x = x, xn = xn, b = b, r = initial_r)
         if (np.isnan(LME_shape) or np.isinf(LME_shape)) or (np.isnan(LME_scale) or np.isinf(LME_scale)):
             parameter_estimation_dict['LME']['scale'] = np.nan
