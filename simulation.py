@@ -1,12 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun 18 11:38:18 2021
-
-@author: Robert James
-"""
 global file_path
 file_path = r'/project/RDS-FOB-GPD_Param_Est-RW'
-#file_path = r'C:\Users\Robert\Dropbox (Sydney Uni)\GPD_Paramaeter_Estimation_Comparison_Project'
 
 import numpy as np
 import pandas as pd

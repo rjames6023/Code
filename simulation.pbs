@@ -4,7 +4,7 @@
 #PBS -l walltime=20:00:00
 #PBS -M rjam3686@uni.sydney.edu.au
 #PBS -m abe
-#PBS -J 1-1014
+#PBS -J 1-334
 
 cd $PBS_O_WORKDIR
 

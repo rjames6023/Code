@@ -1,8 +1,0 @@
-{
-    "n_replications":"10000",
-    "VaR_levels":[0.925, 0.95, 0.975, 0.99, 0.999, 0.9999],
-    "CTE_levels":[0.925, 0.95, 0.975, 0.99, 0.999],
-    "models":['L-Moments', 'MLE', 'LME', 'NEW', 'Revised_NEW', 'MGF_AD', 'MGF_AD2R', 'WNLS', 'MDE'],
-    "initial_threshold_choices":[100]
-}
-
